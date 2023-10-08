@@ -234,6 +234,8 @@ nav {
 
 .first_section_card:hover {
     transform: scale(1.05);
+    transform: rotate(360deg);
+    transition: 2s;
 }
 
 
@@ -610,3 +612,118 @@ background-color: #458FF6;
 
 
 /*   FOOTER qismi */
+
+
+
+.footer_wrapper{
+    background-color: #458FF6 ;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.footer_logo{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.logo > a{
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+.logo> p{
+    width: 174.365px;
+    height: 29px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;   
+}
+
+.footer_logo > h1 {
+    width: 403.413px;
+    height: 80.948px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px; /* 150% */
+    letter-spacing: 0.18px;   
+}
+
+.footer_logo > p{
+    width: 403.413px;
+    height: 26.983px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 175% */ 
+}
+
+
+.footer_links_company{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    color: #FFF; 
+}
+
+.footer_links_region{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;  
+    color: #FFF; 
+}
+
+.footer_links_help{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;  
+    color: #FFF;    
+}
+
+
+.footer a{
+    color: #FFF;
+}
+
+.footer a:hover{
+    transform: scale(1.05);
+    /* transition: 1s; */
+    color: #2E4E92;
+    border-bottom: 4px solid #458FF6;
+}
