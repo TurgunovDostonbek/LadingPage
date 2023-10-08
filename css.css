@@ -1,11 +1,11 @@
 @font-face {
     font-family: Mulish;
-    src: url();
+    src: url(./font/Mulish-Black.ttf);
 }
 
 @font-face {
-    font-family: ;
-    src: url();
+    font-family:Roboto ;
+    src: url(./font/RobotoSerif_28pt_Condensed-Black.ttf);
 }
 
 * {
